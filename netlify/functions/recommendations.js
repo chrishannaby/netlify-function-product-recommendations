@@ -33,13 +33,14 @@ function getSlug(rawUrl) {
     .replace(/\/$/, ""); // remove trailing slash if present
 }
 
-function handler(event) {
+async function handler(event) {
   const slug = getSlug(event.rawUrl);
   console.log(slug);
   const recommendation = recommendations[slug];
+  console.log(recommendation);
   if (recommendation) {
     return {
-      body: recommendation,
+      body: JSON.stringify(recommendation),
       statusCode: 200,
       ttl: 60,
       headers: {
