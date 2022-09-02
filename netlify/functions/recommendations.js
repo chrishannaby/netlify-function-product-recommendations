@@ -25,6 +25,29 @@ const recommendations = {
         "https://cdn.shopify.com/s/files/1/0578/8490/1573/products/Image18_8299875a-5fb1-412e-b614-9db8a779036a.png?v=1623858517",
     },
   ],
+  "netlify-mug": [
+    {
+      title: "Netlify Miir Travel Tumbler",
+      id: "netlify-miir-travel-tumbler",
+      href: "/product/netlify-miir-travel-tumbler",
+      imageUrl:
+        "https://cdn.shopify.com/s/files/1/0578/8490/1573/products/Image3.png?v=1623858524",
+    },
+    {
+      title: "Gem Water Bottle",
+      id: "gem-water-bottle",
+      href: "/product/gem-water-bottle",
+      imageUrl:
+        "https://cdn.shopify.com/s/files/1/0578/8490/1573/products/Image1.png?v=1623858506",
+    },
+    {
+      title: "Netlify Totes",
+      id: "netlify-totes",
+      href: "/product/netlify-totes",
+      imageUrl:
+        "https://cdn.shopify.com/s/files/1/0578/8490/1573/products/Image4.png?v=1623858532",
+    },
+  ],
 };
 
 function getSlug(rawUrl) {
