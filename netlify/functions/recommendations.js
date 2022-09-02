@@ -35,6 +35,7 @@ function getSlug(rawUrl) {
 
 function handler(event) {
   const slug = getSlug(event.rawUrl);
+  console.log(slug);
   const recommendation = recommendations[slug];
   if (recommendation) {
     return {
